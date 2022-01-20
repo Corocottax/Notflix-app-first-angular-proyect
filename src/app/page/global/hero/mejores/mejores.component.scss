@@ -1,0 +1,28 @@
+.mejores {
+
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 20px;
+    width: 300px;
+    align-items: baseline;
+
+    h1 {
+
+        font-size: 210px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--background);
+        text-shadow: 2px 2px 0 grey, 2px -2px 0 grey, -2px 2px 0 grey, -2px -2px 0 grey, 2px 0px 0 grey, 0px 2px 0 grey, -2px 0px 0 grey, 0px -2px 0 grey;
+        margin-right: -35px;
+
+    }
+
+    img {
+
+        height: 150px;
+        z-index: 1;
+
+    }
+
+}

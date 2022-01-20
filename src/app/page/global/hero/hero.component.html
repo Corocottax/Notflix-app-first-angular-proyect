@@ -1,0 +1,39 @@
+<ng-container *ngIf="screenWidth <= 430 ">
+
+    <h1>LOS 3 MÁS POPULARES HOY</h1>
+
+</ng-container>
+
+<ng-container *ngIf="screenWidth > 430 ">
+
+    <h1>LOS 5 MÁS POPULARES HOY</h1>
+
+</ng-container>
+
+<div class="hero">
+
+    <ng-container *ngIf="screenWidth <= 430 ">
+
+        <ng-container *ngFor="let mejor of mejores; let index = index">
+
+            <ng-container *ngIf="index < 3">
+
+                <app-mejores [mejor] = "mejor"></app-mejores>
+                
+            </ng-container>
+
+        </ng-container>
+
+    </ng-container>
+
+    <ng-container *ngIf="screenWidth > 430 ">
+
+        <ng-container *ngFor="let mejor of mejores">
+
+                <app-mejores [mejor] = "mejor"></app-mejores>
+
+        </ng-container>
+
+    </ng-container>
+
+</div>

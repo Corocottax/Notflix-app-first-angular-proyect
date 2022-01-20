@@ -1,0 +1,24 @@
+.hero {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+h1 {
+
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 25px;
+    margin-right: -90px;
+
+}
+
+img {
+
+    z-index: 1;
+
+}

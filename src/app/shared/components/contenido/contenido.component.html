@@ -1,0 +1,15 @@
+<div>
+
+    <h1>{{peliculas.title}}</h1>
+
+    <div class="listadoPeliculas">
+
+        <ng-container *ngFor="let pelicula of peliculas.peliculas">
+
+            <img src="{{pelicula.src}}" alt="{{pelicula.alt}}" class="{{pelicula.class}}">
+
+        </ng-container>
+
+    </div>
+
+</div>

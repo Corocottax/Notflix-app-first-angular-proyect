@@ -1,0 +1,15 @@
+<nav>
+
+    <app-image [image]="image"></app-image>
+
+    <div class="navbar">
+
+        <ng-container *ngFor="let item of navbar">
+
+        <app-navbar [navbar]="item"></app-navbar>
+
+        </ng-container>
+
+    </div>
+
+</nav>
