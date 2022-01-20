@@ -5,15 +5,15 @@ body {
 
     height: 65rem;
 
-    --text-color: #141414;
-    --background: seashell;
+    --text-color: seashell;
+    --background: #141414;
 
 }   
 
-body.dark-theme {
+body.light-theme {
 
-    --text-color: seashell;
-    --background: #141414;
+    --text-color: #141414;
+    --background: seashell;
 
 }
 
